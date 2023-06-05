@@ -1,0 +1,32 @@
+
+/*Mobile*/
+
+@media only screen and (max-width: 767px) {
+    .nav-menu{
+        display:none;
+    }
+    .banner-apresentacao{
+        margin-top: 50px;
+        display: block;
+        text-align: center;  
+    }
+    .foto{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .foto img{
+        width: 80%;
+    }
+    .menu{
+        justify-content: space-between;
+    }
+    .gradiente{
+        font-size: 2.5em;
+    }
+    .texto h2{
+        font-size: 1.5em;
+    }
+    .btn-portfolio {
+        padding: 12px 50px;
+    }
+}
