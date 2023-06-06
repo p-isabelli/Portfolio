@@ -64,6 +64,7 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    max-height: 600px;
     width: 90%;
     gap: 70px;
 }
@@ -159,6 +160,10 @@ body {
 }
 
 /*----------------------secao sobre---------------------*/
+#sobre{
+    max-height: 600px;
+    height: 100%;
+}
 #sobre, #projetos{
     color: #fff;
     width: 90%;
@@ -173,6 +178,7 @@ body {
     font-size: 2.3em;
     margin-bottom: 50px;
     color: #7d12ff;
+    text-align: center;
 }
 #sobre p{
     font-size: 1.2em;

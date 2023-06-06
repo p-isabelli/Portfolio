@@ -11,7 +11,7 @@
         margin-top: 50px;
         display: block;
         text-align: center;  
-        height: 700px;
+        min-height: 700px;
     }
     .foto{
         width: 100%;
@@ -20,6 +20,7 @@
     .foto img{
         width: 90%;
         height: 90%;
+
     }
     .menu{
         justify-content: space-between;
@@ -38,10 +39,14 @@
 
     #sobre{
         padding: 20px;
-        height: auto;
+        min-height:600px;
     }
 
 
 
     /*TECNOLOGIAS*/
+    #skills{
+        min-height: 500px;
+        margin: 50px;
+    }
 }
