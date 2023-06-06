@@ -2,6 +2,8 @@
 /*Mobile*/
 
 @media only screen and (max-width: 767px) {
+    /*HEADER E BANNER*/
+
     .nav-menu{
         display:none;
     }
@@ -9,13 +11,15 @@
         margin-top: 50px;
         display: block;
         text-align: center;  
+        height: 700px;
     }
     .foto{
         width: 100%;
-        margin-top: 20px;
+        margin-top: 40px;
     }
     .foto img{
-        width: 80%;
+        width: 90%;
+        height: 90%;
     }
     .menu{
         justify-content: space-between;
@@ -27,6 +31,17 @@
         font-size: 1.5em;
     }
     .btn-portfolio {
-        padding: 12px 50px;
+        font-size: 0.8em;        
     }
+
+    /*SOBRE*/
+
+    #sobre{
+        padding: 20px;
+        height: auto;
+    }
+
+
+
+    /*TECNOLOGIAS*/
 }
