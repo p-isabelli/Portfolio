@@ -25,6 +25,7 @@ body {
 }
 
 .menu {
+    max-width: 1200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +47,11 @@ body {
     width: 40%;
     color: #fff;
     font-weight: 400;
+}
+
+.portfolio img{
+    height: 20px;
+    width: 30px;
 }
 
 .nav-menu li a{
@@ -107,7 +113,8 @@ body {
     object-fit: cover;
 }
 .btn-portfolio {
-    width: 25%;
+    width: 100%;
+    max-width: 150px;
     appearance: button;
     font-family: 'Poppins', sans-serif;
     background-color: #310c72;
@@ -119,7 +126,7 @@ body {
     cursor: pointer;
     display: inline-block;
     font-size: 1em;
-    margin: 0 10px 10px 0px;
+    margin: 10px 10px 10px 0px;
     overflow: visible;
     padding: 5px 12px;
     text-align: center;
@@ -161,6 +168,7 @@ body {
 
 /*----------------------secao sobre---------------------*/
 #sobre{
+    max-width: 1200px;
     max-height: 600px;
     height: 100%;
 }
@@ -180,6 +188,7 @@ body {
     color: #7d12ff;
     text-align: center;
 }
+
 #sobre p{
     font-size: 1.2em;
 }
@@ -194,6 +203,9 @@ body {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    max-width: 1200px;
+    width: 90%;
+    min-height: 400px;
 }
 .imagens-tec{
     display: flex;
@@ -208,18 +220,81 @@ body {
 }
 .caixa{
     padding: 15px;
-    width: 200px;
     height: auto;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+    min-width: 300px;
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;*/
     /*box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;*/
     /*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 10px 0px, #7d12ff -6px -2px 16px 0px;*/
     /*box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;*/
     /*box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .caixa img{
     width: 70px;
 }
+
 /*secao PROJETOS*/
+#projetos{
+    max-width: 1200px;
+    width: 90%;
+}
+
+#projetos .caixa{
+    max-width: 400px;
+    width: 100%;
+    min-width: 300px;
+
+}
+
+#projetos .caixa img{
+    width: 40%;
+
+}
+
+/*SECAO CONTATO*/
+#contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    max-width: 1200px;
+    width: 90%;
+    min-height: 600px;
+    gap: 40px;
+    color: #fff;
+}
+
+.container-contato{
+    height: 100%;
+    padding: 30px;
+    text-align: center;
+    /*box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;*/
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    margin-bottom: 40px;
+}
+.container-contato h2{
+    font-size: 2.3em;
+    color: #7d12ff;
+}
+
+.formas-contato{
+    height: 150px;
+    margin: 10px;
+}
+.formas-contato h4{
+    font-size: 1.3em;
+    padding: 10px;
+}
+.formas-contato h5{
+    font-size: 1.2em;
+    color: #7d12ff;
+}
+
+.formas-contato img{
+    width: 48px;
+}
+
 
 
 
