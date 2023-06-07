@@ -3,14 +3,42 @@
 
 @media only screen and (max-width: 767px) {
 
-    #sobre h2, .tec-texto h2, #projetos h2{
-        font-size: 2em;
+    .menu{
+        justify-content: space-between;
     }
+
+    .menu .menu-btn i{
+        display: block;
+    }
+    .menu ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        background-color: #161616;
+        height: 100vh;
+        width: 100%;
+        text-align: center;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .menu ul.open{
+        left: 0;
+    }
+    .menu ul li{
+        width: 100%;
+        margin: 50px 0;
+    }
+    .menu ul li a {
+        font-size: 23px;
+    }
+    .menu ul li a.active,
+    .menu ul li a:hover{
+        background: none;
+        color: #7d12ff;
+    }   
+
     /*HEADER E BANNER*/
 
-    .nav-menu{
-        display:none;
-    }
     .banner-apresentacao{
         margin-top: 50px;
         display: block;

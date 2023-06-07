@@ -23,15 +23,60 @@ body {
     align-items: center;
     width: 100%;
 }
+.menu{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    background-color: #161616;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 20px 10px 50px;
+    flex-wrap: wrap;
+}
+.menu .logo a{
+    color: #ab20fd;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
 
-.menu {
+.menu ul li{
+    margin: 0 5px;
+}
+
+.menu ul li a{
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding: 8px 15px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+}
+.menu ul li a.active,
+.menu ul li a:hover{
+    background: #7d12ff;
+}
+
+.menu .menu-btn i{
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+
+/*.menu {
     max-width: 1200px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    height: 70px;
+    min-height: 70px;
     width: 90%;
-    box-shadow: rgba(40, 6, 94, 0.1) 0px 10px 15px -3px, rgba(53, 4, 90, 0.05) 0px 4px 6px -2px;
     font-size: 16px;
 }
 
@@ -41,6 +86,23 @@ body {
     align-items: center;
     list-style-type: none;
     gap: 60px;
+}
+
+.hamburguer{
+    display: none;
+    cursor: pointer;
+}
+.bar{
+    display: block;
+    width: 28px;
+    height: 3px;
+    border-radius: 2px;
+    margin: 5px auto;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+.nav-link{
+    transition: 0.5s ease;
 }
 
 .portfolio {
@@ -59,12 +121,13 @@ body {
     font-size: 1.2em;
     font-weight: 500;
 }
+
 .nav-menu li a:hover, .isabelli h2:hover{
     color: #7d12ff;
     transition: all 0.2s;
     border-bottom: 5px dotted #7d12ff;
 }
-
+*/
 .banner-apresentacao {
     display: flex;
     justify-content: center;
