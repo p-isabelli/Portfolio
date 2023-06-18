@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <nav class="menu">
             <div class="logo">
                 <img src="imagens/cod-fonte.png">
@@ -24,10 +24,10 @@
             </div>
 
             <ul>
-                <li><a href="#"> Sobre</a></li>
-                <li><a href="#"> Tecnologias</a></li>
-                <li><a href="#"> Projetos</a></li>
-                <li><a href="#"> Contato</a></li>
+                <li><a href="#sobre"> Sobre</a></li>
+                <li><a href="#skills"> Tecnologias</a></li>
+                <li><a href="#projetos"> Projetos</a></li>
+                <li><a href="#contato"> Contato</a></li>
             </ul>
         </nav>
     </header>
@@ -35,52 +35,57 @@
     <main class="container">
         <div class="banner-apresentacao">
             <div class="foto">
-                <img src="imagens/foto2.JPG" alt="">
+                <img src="imagens/foto-perfil.jpg" alt="foto de perfil">
             </div>
             <div class="texto">
                 <h4>Olá! Eu sou</h4>
                 <h1 class="gradiente">Isabelli Cruz</h1>
                 <h2>Desenvolvedora Backend</h2>
-                <button class="btn-portfolio"><img src="imagens/github.svg" alt=""><a
+                <button class="botoes"><img src="imagens/github.svg" alt="github"><a
                         href="https://github.com/p-isabelli">GitHub</a></button>
-                <button class="btn-portfolio"><img src="imagens/linkedin.svg" alt=""><a
+                <button class="botoes"><img src="imagens/linkedin.svg" alt="linkedin"><a
                         href="https://www.linkedin.com/in/p-isabelli-6b945414b/">Linkedin</a></button>
             </div>
         </div>
         <section class="container">
             <div id="sobre">
                 <h2>Sobre mim</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores debitis tempora non? Rerum
-                    laboriosam voluptatibus mollitia dolorum saepe, tempora, possimus nemo, eveniet atque error est
-                    consequuntur sed dolores consectetur esse! Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Asperiores debitis tempora non? Rerum laboriosam voluptatibus mollitia dolorum saepe, tempora,
-                    possimus nemo, eveniet atque error est consequuntur sed dolores consectetur esse!</p>
+                <p>Olá! Me chamo Isabelli e sou apaixonada pela área de programação e tecnologia. Atualmente curso informática com 
+                    ênfase em gestão de negócios na FATEC e tenho me dedicado a me tornar uma desenvolvedora fullstack. 
+                    Para atingir esse objetivo, estou sempre me desafiando e buscando colocar em prática 
+                    os conhecimentos que adquiri.</p>
             </div>
         </section>
         <section class="container">
             <div id="skills">
                 <div class="tec-texto">
+                    <p>Te<span>cnolog</span>ias</p>
+                    
                     <h2>Confira as tecnologias que mais utilizo</h2>
                 </div>
                 <div class="imagens-tec">
                     <div class="caixa">
-                        <img src="imagens/html.svg" alt="">
+                        <img src="imagens/html.svg" alt="HTML">
                         <p>HTML</p>
                     </div>
                     <div class="caixa">
-                        <img src="imagens/css.svg" alt="">
+                        <img src="imagens/css.svg" alt="CSS">
                         <p>CSS</p>
                     </div>
                     <div class="caixa">
-                        <img src="imagens/javascript.svg" alt="">
+                        <img src="imagens/bootstrap.svg" alt="bootstrap">
+                        <p>Bootstrap</p>
+                    </div>
+                    <div class="caixa">
+                        <img src="imagens/javascript.svg" alt="Javascript">
                         <p>Javascript</p>
                     </div>
                     <div class="caixa">
-                        <img src="imagens/java.svg" alt="">
+                        <img src="imagens/java.svg" alt="Java">
                         <p>Java</p>
                     </div>
                     <div class="caixa">
-                        <img src="imagens/mysql.svg" alt="">
+                        <img src="imagens/mysql.svg" alt="MySQL">
                         <p>MySQL</p>
                     </div>
                 </div>
@@ -90,22 +95,21 @@
         <section class="container">
             <div id="projetos">
                 <div class="tec-texto">
-                    <h2>Projetos</h2>
+                    <p>Pr<span>ojet</span>os</p>
+                    <h2>Confira meus projetos</h2>
                 </div>
                 <div class="imagens-tec">
                     <div class="caixa">
-                        <h4>Projeto 1</h4>
-                        <img src="imagens/html.svg" alt="">
-                        <p>HTML</p>
-                        <button class="btn-portfolio"><a href="#">Acesse aqui</a></button>
+                        <h4>Gerador de figurinhas para WhatsApp</h4>
+                        <img src="imagens/projetos/geraFigurinhas.png" alt="imagem projeto que gera figurinhas para whatsapp">
+                        <button class="botoes"><a href="https://github.com/p-isabelli/imersao-alura">Acesse aqui</a></button>
                     </div>
                     <div class="caixa">
-                        <h4>Projeto 2</h4>
-                        <img src="imagens/css.svg" alt="">
-                        <p>CSS</p>
-                        <button class="btn-portfolio"><a href="#">Acesse aqui</a></button>
+                        <h4>Gerador de senhas</h4>
+                        <img src="imagens/projetos/gSenha.PNG" alt="imagem do projeto que gera senhas">
+                        <button class="botoes"><a href="https://p-isabelli.github.io/gerador-de-senhas/">Acesse aqui</a></button>
                     </div>
-                    <div class="caixa">
+                    <!--<div class="caixa">
                         <h4>Projeto 3</h4>
                         <img src="imagens/javascript.svg" alt="">
                         <p>Javascript</p>
@@ -116,7 +120,10 @@
                         <img src="imagens/java.svg" alt="">
                         <p>Java</p>
                         <button class="btn-portfolio"><a href="#">Acesse aqui</a></button>
-                    </div>
+                    </div>-->
+                </div>
+                <div class="ctn-projetos">
+                    <button class="botoes"><a href="https://github.com/p-isabelli">Mais projetos aqui!</a></button>
                 </div>
             </div>
         </section>
@@ -125,17 +132,17 @@
                 <div class="container-contato">
                     <h2>Entre em contato comigo:</h2>
                     <div class="formas-contato">
-                        <img src="imagens/localizacao.png" alt="">
+                        <img src="imagens/localizacao.png" alt="localização">
                         <h4>Localização:</h4>
                         <h5>Mauá, São Paulo</h5>
                     </div>
                     <div class="formas-contato">
-                        <img src="imagens/icons8-nova-mensagem-48.png" alt="">
+                        <img src="imagens/icone-email.png" alt="contato">
                         <h4>Email:</h4>
                         <h5>isabellipereira58@gmail.com</h5>
                     </div>
                     <div class="formas-contato">
-                        <img src="imagens/whatsapp.svg" alt="">
+                        <img src="imagens/whatsapp.svg" alt="contato por whatsapp">
                         <h4>Telefone:</h4>
                         <h5>(11) 94557-4100</h5>
                     </div>

@@ -7,4 +7,6 @@ function menuShow() {
     }else{
         ul.classList.add('open');
     }
+
 }   
+

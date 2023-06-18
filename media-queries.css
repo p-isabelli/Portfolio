@@ -3,8 +3,13 @@
 
 @media only screen and (max-width: 767px) {
 
+    header{
+        position: initial;
+    }
+
     .menu{
         justify-content: space-between;
+        padding: 0 20px 10px 50px;
     }
 
     .menu .menu-btn i{
@@ -23,7 +28,8 @@
     }
     .menu ul.open{
         left: 0;
-    }
+    } 
+
     .menu ul li{
         width: 100%;
         margin: 50px 0;
@@ -40,7 +46,7 @@
     /*HEADER E BANNER*/
 
     .banner-apresentacao{
-        margin-top: 50px;
+        margin-top: 80px;
         display: block;
         text-align: center;
         min-height: 700px;
@@ -48,6 +54,7 @@
         height: 100%;
         margin-bottom: 50px;
     }
+   
     .foto{
         width: 100%;
         margin-top: 40px;
@@ -81,6 +88,13 @@
     #skills{
         min-height: 500px;
         margin: 50px;
+    }
+
+    .tec-texto h2, #sobre h2, #projetos h2{
+        font-size: 1.9em;
+    }
+    .tec-texto p{
+        font-size: 1em;
     }
 
     /*PROJETOS*/
