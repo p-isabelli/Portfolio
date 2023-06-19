@@ -73,7 +73,7 @@
     .texto h2{
         font-size: 1.5em;
     }
-    .btn-portfolio {
+    .botoes {
         font-size: 0.8em;        
     }
 
@@ -98,7 +98,14 @@
     }
 
     /*PROJETOS*/
-    
+    .ctn-projetos .botoes {
+       width: 100%;
+       padding: 10px 15px; 
+    }
+    .ctn-projetos{
+        font-size: 1em;
+       
+    }
 
     /*CONTATOS*/
     .formas-contato h5{

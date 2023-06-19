@@ -300,11 +300,13 @@ header{
     font-size: 1.3em;
     text-align: center;
     max-width: 400px;
-    width: 100%;
+    min-width: 200px;
+    width: 90%;
 }
 
 .ctn-projetos .botoes {
     max-width: 300px;
+    width: 100%;
 }
 
 
